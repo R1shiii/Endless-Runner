@@ -14,10 +14,5 @@ public class Obstacle : MonoBehaviour
         {
             playerMovement.Die();
         }
-    }
-    // Update is called once per frame
-    private void Update()
-    {
-        
-    }
+    }  
 }

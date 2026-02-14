@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Unity Projects\\Endless Runner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unity projects\\endless runner\\assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unity projects\\endless runner\\assets\\scripts\\groundtile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundtile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unity projects\\endless runner\\assets\\scripts\\groundspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unity projects\\endless runner\\assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Camera_Follow.cs",
               "DocumentMoniker": "D:\\Unity Projects\\Endless Runner\\Assets\\Scripts\\Camera_Follow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera_Follow.cs",
@@ -50,25 +50,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Camera_Follow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T10:12:43.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T10:12:43.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Obstacle.cs",
               "DocumentMoniker": "D:\\Unity Projects\\Endless Runner\\Assets\\Scripts\\Obstacle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacle.cs",
-              "ToolTip": "D:\\Unity Projects\\Endless Runner\\Assets\\Scripts\\Obstacle.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\Obstacle.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Unity Projects\\Endless Runner\\Assets\\Scripts\\Obstacle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Obstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T16:47:52.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GroundSpawner.cs",
               "DocumentMoniker": "D:\\Unity Projects\\Endless Runner\\Assets\\Scripts\\GroundSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GroundSpawner.cs",
@@ -76,12 +75,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GroundSpawner.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T16:23:24.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T16:23:24.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Unity Projects\\Endless Runner\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -89,12 +87,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:25:16.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T18:25:16.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Player_Movement.cs",
               "DocumentMoniker": "D:\\Unity Projects\\Endless Runner\\Assets\\Scripts\\Player_Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player_Movement.cs",
@@ -102,25 +99,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Player_Movement.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwCwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T14:37:36.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T14:37:36.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GroundTile.cs",
               "DocumentMoniker": "D:\\Unity Projects\\Endless Runner\\Assets\\Scripts\\GroundTile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GroundTile.cs",
               "ToolTip": "D:\\Unity Projects\\Endless Runner\\Assets\\Scripts\\GroundTile.cs",
               "RelativeToolTip": "Assets\\Scripts\\GroundTile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T11:52:07.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Coin.cs",
               "DocumentMoniker": "D:\\Unity Projects\\Endless Runner\\Assets\\Scripts\\Coin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Coin.cs",
@@ -128,8 +124,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Coin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T17:31:08.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:31:08.412Z"
             }
           ]
         }
