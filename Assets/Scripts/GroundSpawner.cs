@@ -1,9 +1,14 @@
+using Unity.AI.Navigation;
 using UnityEngine;
+using UnityEngine.AI;
+
 
 public class GroundSpawner : MonoBehaviour
 {
     [SerializeField] GameObject groundTile;
     Vector3 nextSpawnPoint;
+    public NavMeshSurface navSurface;
+
 
     public void SpawnTile(bool spawnItems)
     {
@@ -28,6 +33,8 @@ public class GroundSpawner : MonoBehaviour
             {
                 SpawnTile(true);
             }
-        }         
+        }
+        navSurface.BuildNavMesh();
+
     }
 }

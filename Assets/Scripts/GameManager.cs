@@ -40,13 +40,4 @@ public class GameManager : MonoBehaviour
             ScoreText.text = "SCORE: " + score;
 
     }
-    private void Start()
-    {
-        
-    }
-
-    private void Update()
-    {
-        
-    }
 }
