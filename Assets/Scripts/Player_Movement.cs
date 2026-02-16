@@ -1,9 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class Player_Movement : MonoBehaviour {
 
     bool alive = true;
+
+    Animator animator;
+
 
     public float Speed = 5;
     [SerializeField] Rigidbody rb;
@@ -25,6 +29,11 @@ public class Player_Movement : MonoBehaviour {
         rb.MovePosition(rb.position + forwardMove + horizontalMove);
     }
 
+    void Start()
+    {
+        animator = GetComponentInChildren<Animator>();
+    }
+
     public void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
@@ -41,10 +50,18 @@ public class Player_Movement : MonoBehaviour {
     }
     public void Die()
     {
-        alive = false;
-        Invoke("Restart", 2);
+        if (!alive) return;
 
-    } 
+        alive = false;
+
+        animator.SetTrigger("Die");
+
+        rb.linearVelocity = Vector3.zero;   // stop physics movement
+        rb.isKinematic = true;        // fully freeze body
+
+        Invoke("Restart", 2);
+    }
+
     public void Restart ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
